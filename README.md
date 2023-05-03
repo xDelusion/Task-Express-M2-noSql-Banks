@@ -48,7 +48,7 @@ let's start with setting up our database and ORM following those [steps](https:/
 
 1. Make your `Account` Delete route function `asynchronous` and add a `try-catch` block.
 2. Pass the `accountId` from your route parameter to `.findById()` method and save it in a variable called `foundAccount`.
-3. If `foundAccount` exists, call the `.remove()` method on `foundAccount`.
+3. If `foundAccount` exists, call the `.deleteOne()` method on `foundAccount`.
 4. Don't forget to set the status code to `204` and end the response.
 5. If it doesn't exist set the response status code to `404` and return an error message stating that this account doesn't exist as a `JSON` response.
 6. In the `catch` block, set the response status code to `500` and return the error message as a `JSON` response.
