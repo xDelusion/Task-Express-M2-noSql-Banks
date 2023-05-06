@@ -8,7 +8,7 @@ In this task, you will connect your Banking API with a database and perform the 
 
 ## Steps
 
-let's start with setting up our database and ORM following those [steps](https://github.com/JoinCODED/WS-Express-M2-Intro-DBs-and-ORMs-noSQL/blob/master/02_ODMs/03_setup_mongoose.md).
+let's start with setting up our database and ORM following those [steps](https://github.com/JoinCODED/WS-Express-M2-Intro-DBs-and-ORMs-noSQL/blob/master/02_ORMs/03_setup_mongoose.md).
 
 ### Create your Model
 
