@@ -10,6 +10,15 @@ In this task, you will connect your Banking API with a database and perform the 
 
 let's start with setting up our database and ORM following those [steps](https://github.com/JoinCODED/WS-Express-M2-Intro-DBs-and-ORMs-noSQL/blob/master/02_ORMs/03_setup_mongoose.md).
 
+### Setup
+
+1. Follow the instruction in the link above to setup a connection to you `mongodb`.
+2. Install [dotenv](https://www.npmjs.com/package/dotenv) package/library.
+3. Create a .env file and add both `PORT` and `MONGO_DB_URL` variables and assign them with the appropriate values.
+4. Include the `dotenv` in `app.js`, create a variable called `PORT` and assign it to the value in the `.env` file. Now use the `PORT` when creating the server.
+5. Include the `dotenv` in `database.js`, access the value in the `.env` file in the `mongoose.connect` callback function.
+6. Create a `.gitignore` file and include both the `node_modules` and the `.env` file.
+
 ### Create your Model
 
 1. In your models folder, create a file called `Account.js`, make sure it starts with a capital letter.
@@ -62,6 +71,8 @@ Apply some validation rules on your account model.
 The `username` should be `required` and can't be `null`.
 
 Give `funds` a default value of `0`.
+
+## BONUS
 
 ### 🌶 Vip Accounts
 
