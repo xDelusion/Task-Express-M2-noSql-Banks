@@ -17,7 +17,7 @@ let's start with setting up our database and ORM following those [steps](https:/
 3. Create a .env file and add both `PORT` and `MONGO_DB_URL` variables and assign them with the appropriate values.
 4. Include the `dotenv` in `app.js`, create a variable called `PORT` and assign it to the value in the `.env` file. Now use the `PORT` when creating the server.
 5. Include the `dotenv` in `database.js`, access the value in the `.env` file in the `mongoose.connect` callback function.
-6. Create a `.gitignore` file and include both the `node_modules` and the `.env` file.
+6. Include the `.env` file in the `.gitignore`.
 
 ### Create your Model
 
